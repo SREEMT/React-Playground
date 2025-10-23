@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div>
+    <main className="home-page">
       <h1>Welcome to the Home Page</h1>
-      <p>This is your React + Vite frontend!</p>
-    </div>
-  )
+      <p>This is the main landing page of the application.</p>
+    </main>
+  );
 }
